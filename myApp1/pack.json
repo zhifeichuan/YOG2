@@ -1,0 +1,18 @@
+{
+    "pkg/aio.js": [
+        "static/js/*.js"
+    ],
+    "pkg/myApp1_sync_css_0.css": [
+        "/widget/js/tip/tip.css",
+        "/static/css/header.less",
+        "/static/css/global.less"
+    ],
+    "pkg/myApp1_async_js_0.js": [
+        "/static/js/customer/asyncTest.js"
+    ],
+    "pkg/myApp1_sync_js_0.js": [
+        "/static/js/customer/test.js",
+        "/widget/js/tip/jquery.poshytip.js",
+        "/widget/js/jquery.js"
+    ]
+}

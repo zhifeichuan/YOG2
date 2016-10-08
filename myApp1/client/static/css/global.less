@@ -1,0 +1,180 @@
+
+
+/*链接的默认样式*/
+a:hover
+{
+    text-decoration: none;
+}
+a:active
+{
+    text-decoration: none;
+}
+a:visited
+{
+    text-decoration: none;
+}
+a:link
+{
+    text-decoration: none;
+}
+.switchOn{
+    width:58px;
+    height:24px;
+    background-image: url("../image/switch-bg.png?__sprite");
+    span{
+        width:91px;
+        height:24px;
+        margin-left: -33px;
+        display:block;
+        background-repeat: no-repeat;
+        background-image: url("../image/switch-lang.png?__sprite");
+    }
+}
+.switchOff{
+    width:58px;
+    height:24px;
+    background-image: url("../image/switch_dot.png?__sprite");
+    span{
+        background-image: url("../image/switch_dot_cur.png?__sprite");
+    }
+}
+
+// 加载
+.isloading-overlay{
+    position: relative;
+    text-align: center;
+    .isloading-wrapper{
+        -webkit-border-radius: 7px;
+        -webkit-background-clip: padding-box;
+        -moz-border-radius: 7px;
+        -moz-background-clip: padding;
+        border-radius: 7px;
+        background-clip: padding-box;
+        display: inline-block;
+        margin: 0 auto;
+        padding: 10px 20px;
+        top: 10%;
+        z-index: 9000;
+        background-color: #fff;
+
+        .glyphicon{
+            display: block;
+            width: 110px;
+            height: 110px;
+
+            background-repeat: no-repeat;
+        }
+    }
+    .isloading-right{
+        margin-left: 10px;
+    }
+}//
+
+
+
+.clearfix
+{
+
+}
+.center-block
+{
+
+}
+.rg
+{
+    float: right !important;
+}
+.lf
+{
+    float: left !important;
+}
+
+.none
+{
+    display: none ;
+}
+.block
+{
+    display: block ;
+}
+.invisible
+{
+    visibility: hidden;
+}
+.text-hide
+{
+
+}
+
+.ta-c
+{
+    text-align: center;
+}
+
+.hidden
+{
+    display: none ;
+}
+body,html{
+    font-family:"微软雅黑";
+    margin:0;
+    padding:0;
+}
+tr:nth-child(odd){
+    background-color: #e8e8e8;
+}
+
+/* Common */
+.back{
+    height:100px;
+    width:100%;
+    text-align: center;
+    background: #f2f3f5;
+    .back-btn{
+        display: inline-block;
+        margin-top:0px;
+
+    }
+}
+.side{
+    opacity:0;
+    position:fixed;
+    width:54px;
+    right:100px;
+    bottom:100px;
+    z-index:100;
+    ul{
+        li{
+            width:54px;
+            height:54px;
+            float:left;
+            position:relative;
+            border-bottom:1px solid #444;
+            .sidetop{
+                width:54px;
+                height:54px;
+                line-height:54px;
+                display:inline-block;
+                background:#000;
+                opacity:0.8;
+                filter:Alpha(opacity=80);
+                transition:all 0.3s;
+
+                &:hover{
+                    background:#3CA1D7;
+                    opacity:1;
+                    filter:Alpha(opacity=100);
+                }
+            }
+            span{
+                float:left;
+
+            }
+        }
+    }
+}
+
+
+.esh-sel{
+  border: 1px solid #cdcfd1;
+}
